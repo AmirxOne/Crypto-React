@@ -1,0 +1,51 @@
+.Detilse {
+    height: 57px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(1, 8, 30, .04);
+}
+
+.boxImage > img {
+    width: 30px;
+    height: 30px;
+}
+
+.boxImage, .name, .price, .marketCap, .symbol, .priceChenge, .priceRed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    height: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(0, 20, 42);
+    font-family: URWDIN, sans-serif !important;
+}
+
+.boxImage {
+    width: 8%;
+}
+
+.price {
+    width: 10%;
+}
+
+.symbol {
+    width: 8%;
+}
+
+.priceChenge {
+    width: 8%;
+    color: rgb(60 183 155);
+    font-size: 14px;
+    font-family: URWDIN, sans-serif !important;
+}
+
+.priceRed {
+    color: rgb(237, 102, 102);
+    width: 8%;
+    font-size: 14px;
+    font-family: URWDIN, sans-serif !important;
+}

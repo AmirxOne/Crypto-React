@@ -1,0 +1,48 @@
+.boxCrypto {
+    width: 65%;
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 100px;
+    overflow: scroll;
+}
+
+.boxCrypto::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.boxInput {
+    width: 65%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+
+.input {
+    display: flex;
+    width: 700px;
+    height: 45px;
+    padding: 0 45px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    caret-color: black;
+    background-color: rgb(245 246 246);
+}
+
+.input::placeholder {
+    color: rgba(0, 20, 42, 0.6);
+}
+
+.discrption {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+
+}
