@@ -1,7 +1,7 @@
 import React from 'react';
 import Lander from "./Component/Lander";
 import Style from "./Component-Style/App.module.css"
-import background from "./image/bg-quickstart.dab977c4.png"
+import background from "../../first-app/src/image/bg-quickstart.dab977c4.png"
 
 const App = () => {
     return (
