@@ -16,11 +16,3 @@
     display: flex;
     justify-content: center;
 }
-
-.App > img {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    bottom: 0;
-}
