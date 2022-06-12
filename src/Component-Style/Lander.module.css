@@ -15,13 +15,14 @@
 
 .boxInput {
     width: 65%;
-    height: 100px;
+    height: 180px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     position: fixed;
     background-color: white;
-    top: 85px;
+    top: 0;
+    padding-bottom: 25px;
 }
 
 .input {
